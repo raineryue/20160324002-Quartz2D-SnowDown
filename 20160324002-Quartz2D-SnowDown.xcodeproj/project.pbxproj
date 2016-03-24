@@ -15,6 +15,7 @@
 		D58C21281CA4314000858C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58C21261CA4314000858C18 /* LaunchScreen.storyboard */; };
 		D58C21331CA4314000858C18 /* _0160324002_Quartz2D_SnowDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C21321CA4314000858C18 /* _0160324002_Quartz2D_SnowDownTests.m */; };
 		D58C213E1CA4314000858C18 /* _0160324002_Quartz2D_SnowDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C213D1CA4314000858C18 /* _0160324002_Quartz2D_SnowDownUITests.m */; };
+		D58C214D1CA431E800858C18 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C214C1CA431E800858C18 /* SnowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D58C21391CA4314000858C18 /* 20160324002-Quartz2D-SnowDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160324002-Quartz2D-SnowDownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58C213D1CA4314000858C18 /* _0160324002_Quartz2D_SnowDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160324002_Quartz2D_SnowDownUITests.m; sourceTree = "<group>"; };
 		D58C213F1CA4314000858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58C214B1CA431E800858C18 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		D58C214C1CA431E800858C18 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D58C211C1CA4314000858C18 /* AppDelegate.m */,
 				D58C211E1CA4314000858C18 /* ViewController.h */,
 				D58C211F1CA4314000858C18 /* ViewController.m */,
+				D58C214B1CA431E800858C18 /* SnowView.h */,
+				D58C214C1CA431E800858C18 /* SnowView.m */,
 				D58C21211CA4314000858C18 /* Main.storyboard */,
 				D58C21241CA4314000858C18 /* Assets.xcassets */,
 				D58C21261CA4314000858C18 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				D58C21201CA4314000858C18 /* ViewController.m in Sources */,
 				D58C211D1CA4314000858C18 /* AppDelegate.m in Sources */,
 				D58C211A1CA4314000858C18 /* main.m in Sources */,
+				D58C214D1CA431E800858C18 /* SnowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
